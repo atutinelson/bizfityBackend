@@ -74,7 +74,7 @@ class MpesaClient:
            "PartyA": phone_number,
             "PartyB": self.shortcode,
             "PhoneNumber": phone_number,
-           "CallBackURL": f"https://68b3-105-163-158-229.ngrok-free.app/api/stk_callback/{self.business_id}/",
+           "CallBackURL": f"https://bizfitybackend.onrender.com/api/stk_callback/{self.business_id}/",
            "AccountReference": f"Bizfity {business_name}",
           "TransactionDesc": transaction_desc 
           }
